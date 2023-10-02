@@ -154,7 +154,7 @@ p {
             rgba(0, 0, 0, 0.4) 100%
     );
 
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc000000', endColorstr='#66000000', GradientType=0);
 
     height: 900px;
     background-attachment: fixed;
@@ -177,6 +177,7 @@ p {
 }
 
 .intro-content {
+    color: rgb(206, 206, 206);
     position: absolute;
     padding: 20% 0 20% 0;
     left: 0;
@@ -248,8 +249,13 @@ a.fa.fa-angle-down:focus {
 }
 
 #arrow {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
     color: #fcfcfc;
-    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    /*font-size: 50px;*/
 }
 
 /* END MAIN PAGE */
@@ -450,7 +456,7 @@ a.resume-button {
     letter-spacing: 2px;
     font-size: 14px;
     color: #ffffff;
-    font-weight: 00px;
+    font-weight: 0;
     outline: 2px solid #ffffff;
     padding: 22px 34px;
     transition: 0.5s;
