@@ -29,7 +29,7 @@ body {
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #Fff;
+    border: 4px solid #fff;
     animation: loader 2s infinite ease;
 }
 .loader-inner {
@@ -49,9 +49,9 @@ body {
 }
 
 @keyframes loader-inner {
-    0% { height: 0%;}
-    25% { height: 0%;}
+    0% { height: 0;}
+    25% { height: 0;}
     50% { height: 100%;}
     75% { height: 100%;}
-    100% { height: 0%;}
+    100% { height: 0;}
 }

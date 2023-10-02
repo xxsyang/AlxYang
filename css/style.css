@@ -121,12 +121,8 @@ p {
 /* START MAIN PAGE */
 
 #intro {
-    /*background: url(../img/mountain.jpg);*/
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #000;
+    background: #000 url(../image/gokyo-ri-4692458_1920.jpg) no-repeat fixed center;
     color: #000;
 }
 
@@ -238,6 +234,7 @@ a.fa.fa-angle-down:focus {
 
 #arrow {
     color: #fcfcfc;
+    font-size: 50px;
 }
 
 /* END MAIN PAGE */
@@ -420,12 +417,8 @@ a.fa.fa-angle-down:focus {
 /* START RESUME */
 
 #resume {
-    background: url(../img/lanscape.jpg);
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #000;
+    background: #000 url(../image/DSC00318.JPG) no-repeat fixed center;
     color: #fff;
 }
 
